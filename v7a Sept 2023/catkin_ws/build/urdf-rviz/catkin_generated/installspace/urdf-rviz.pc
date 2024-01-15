@@ -1,0 +1,8 @@
+prefix=/home/nour1/Downloads/2023-Capstone-main/v7a Sept 2023/new_catkin_ws/install
+
+Name: urdf-rviz
+Description: Description of urdf-rviz
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

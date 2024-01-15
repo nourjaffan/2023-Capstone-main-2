@@ -1,0 +1,8 @@
+prefix=/home/nour1/Downloads/2023-Capstone-main/v7a Sept 2023/new_catkin_ws/devel
+
+Name: velodyne_pcl
+Description: Description of velodyne_pcl
+Version: 1.7.0
+Cflags: -I/home/nour1/Downloads/2023-Capstone-main/v7a Sept 2023/new_catkin_ws/src/velodyne-master/velodyne_pcl/include
+Libs: -L${prefix}/lib 
+Requires: pcl_ros

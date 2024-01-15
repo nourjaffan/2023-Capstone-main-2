@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="rvizconfig" default="/home/abhinav/catkin_ws/src/urdf-rviz/rviz/rviz_basic_settings_2.rviz" />
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)" required="true" output="screen" />
+
+  <!--                PUBLISHERS                   -->
+  <node pkg="tf2_ros" type="static_transform_publisher" name="odom_broadcaster" args="0 0 0 0 0 0 map odom"/>
+  
+  
+
+</launch>
